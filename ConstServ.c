@@ -37,7 +37,7 @@ int main(int argc, char **argv) {
     } else {
         printf("Please supply a file, and the compiler arguments. (Example Below.)\n");
         printf("constserv ./myProgram.c gcc -o ./myProgramOut ./myProgram.c");
-        printf("constserv <File to compile> <Arguments to compile (gcc, gnu, what ever compiler, whatever language.)");
+        printf("constserv <File to compile> <Arguments to compile> (gcc, gnu, etc.. what ever compiler, whatever language.)");
         printf("The compiler is done by running the arguments following the file name as a system command, so it runs in: \nTerminal (Linux/MacOS) \nor CMD/Powershell (Windows)");
     };
 
